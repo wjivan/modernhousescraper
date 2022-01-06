@@ -12,12 +12,12 @@ I attempt to verify this claim through a webscraping exercise. To do this, I scr
 
 The modern house url ends with all the houses on sale for a specific number of bedrooms. Ideally, I would need the per square meter prices of a property. However, this information is only available in the form of floor plan which is in a PDF image. The closest approximation to the size would be number of bedrooms. My strategy is to create functions to scroll through the website and collect data. This is then repeated for all the pages for different number of bedrooms. 
 
-<img src='static/dataframe.jpg' width="300" height="200">
+<img src='static/dataframe.jpg'>
 
 ### Download neighbourhood price data from Zoopla API
 The Zoopla API breaks easily but I was able to extract some data to compare with some of the listing data found on Modern House
 
-<img src='static/datazoopla.jpg' width="300" height="200">
+<img src='static/datazoopla.jpg'>
 
 
 ## 2. Data cleaning
